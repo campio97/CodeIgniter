@@ -374,7 +374,8 @@ $config['sess_save_path'] = NULL;
 $config['sess_match_ip'] = FALSE;
 $config['sess_time_to_update'] = 300;
 $config['sess_regenerate_destroy'] = FALSE;
-
+$config['sess_cookie_samesite'] = 'Strict' //Working with php 7.2 or later
+	
 /*
 |--------------------------------------------------------------------------
 | Cookie Related Variables
